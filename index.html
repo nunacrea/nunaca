@@ -142,6 +142,19 @@
         <button id="search-button" class="btn-custom" disabled>Buscar Canchas</button>
     </div>
 
+    <!-- Modal de Ciudad -->
+    <div id="district-modal" class="modal-bottom">
+        <div class="modal-header">
+            <h5>Elija Ciudad</h5>
+            <button class="modal-close" onclick="closeModal()">×</button>
+        </div>
+        <div class="modal-content">
+            <div class="option" onclick="saveSelection('district', 'Ciudad 1')">Santiago</div>
+            <div class="option" onclick="saveSelection('district', 'Ciudad 2')">MI CASA PE</div>
+            <div class="option" onclick="saveSelection('district', 'Ciudad 3')">Wanchaq</div>
+        </div>
+    </div>
+
     <!-- Modal de Fútbol -->
     <div id="football-modal" class="modal-bottom">
         <div class="modal-header">
